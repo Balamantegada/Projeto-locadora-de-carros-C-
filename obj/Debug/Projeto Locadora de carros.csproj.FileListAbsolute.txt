@@ -1,0 +1,48 @@
+C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\bin\Debug\SistemaCliente.exe.config
+C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\bin\Debug\SistemaCliente.exe
+C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\bin\Debug\SistemaCliente.pdb
+C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\bin\Debug\Google.Protobuf.dll
+C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\bin\Debug\MySql.Data.dll
+C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\bin\Debug\System.Buffers.dll
+C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\bin\Debug\System.Memory.dll
+C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\bin\Debug\ZstdNet.dll
+C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\bin\Debug\Google.Protobuf.pdb
+C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\bin\Debug\Google.Protobuf.xml
+C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\bin\Debug\MySql.Data.xml
+C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\bin\Debug\System.Buffers.xml
+C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\bin\Debug\System.Memory.xml
+C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\obj\Debug\Projeto Locadora de carros.csproj.AssemblyReference.cache
+C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\obj\Debug\Projeto Locadora de carros.csproj.SuggestedBindingRedirects.cache
+C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\obj\Debug\SistemaCliente.Frm_Principal.resources
+C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\obj\Debug\SistemaCliente.Properties.Resources.resources
+C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\obj\Debug\Projeto Locadora de carros.csproj.GenerateResource.cache
+C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\obj\Debug\Projeto Locadora de carros.csproj.CoreCompileInputs.cache
+C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\obj\Debug\Projeto Locadora de carros.csproj.CopyComplete
+C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\obj\Debug\SistemaCliente.exe
+C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\obj\Debug\SistemaCliente.pdb
+C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\obj\Debug\SistemaCliente.Frms.Frm_Admin.resources
+C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\obj\Debug\SistemaCliente.Frm_Login_funcio.resources
+C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\obj\Debug\SistemaCliente.Frm_Login_admin.resources
+C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\obj\Debug\SistemaCliente.Frm_Cadastro_Funcionario.resources
+C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\obj\Debug\SistemaCliente.Frm_Funcionario_List.resources
+C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\obj\Debug\SistemaCliente.Frms.template.Frm_Cadastro.resources
+C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\obj\Debug\SistemaCliente.Frms.template.Frm_User_List.resources
+C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\obj\Debug\SistemaCliente.Frms.Frm_Funcionario.resources
+C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\obj\Debug\SistemaCliente.Frm_Cliente_List.resources
+C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\obj\Debug\SistemaCliente.Frm_Cadastro_Clientes.resources
+C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\obj\Debug\SistemaCliente.Frm_Carros_List.resources
+C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\obj\Debug\SistemaCliente.Frm_Cadastro_Carros.resources
+C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\obj\Debug\SistemaCliente.Frm_Cadastro_Locacoes.resources
+C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\obj\Debug\SistemaCliente.Frm_Locacoe_List.resources
