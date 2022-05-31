@@ -50,19 +50,25 @@ namespace SistemaCliente
             Input_Data_de_Compra.Text = data_de_compra;
             Input_Valor_de_Compra.Text = valor_de_compra;
             Input_Placa.Text = placa;
-            if(foto == "")
+            string caminho_reformatado = "";
+            for (int i = 0; i <= foto.Length - 1; i++)
             {
-                IMG_Imagem_Carro.Image = null;
+                if (foto[i] == '?')
+                {
+                    caminho_reformatado += "\\";
+                }
+                else
+                {
+                    caminho_reformatado += foto[i];
+                }
             }
-            else
-            {
-                
-            }
+            Txt_imagem.Text = caminho_reformatado;
+            IMG_Imagem_Carro.ImageLocation = caminho_reformatado;
         }
         public void Clear()
         {
             Input_Modelo.Text =
-            Input_Tamanho.Text = 
+            Input_Tamanho.Text =
             Input_Categoria.Text =
             Input_Cilindradas.Text =
             Input_Gps.Text =
@@ -82,7 +88,7 @@ namespace SistemaCliente
             try
             {
                 string caminhoArquivo = AppDomain.CurrentDomain.BaseDirectory + System.Configuration.ConfigurationManager.AppSettings["caminhoFotoCarro"];
-                
+
                 this.comandos = new Carros();
 
                 this.comandos.modelo = Input_Modelo.Text;
@@ -99,19 +105,8 @@ namespace SistemaCliente
                 this.comandos.data_de_compra = Input_Data_de_Compra.Text;
                 this.comandos.valor_de_compra = Input_Valor_de_Compra.Text;
                 this.comandos.placa = Input_Placa.Text;
-                string ola="",oi=Txt_imagem.Text;
-                for (int i = 0;i>= oi.Length-1;i++)
-                {
-                    if (oi[i]=='\\')
-                    {
-                        ola += "\\\\";
-                    }
-                    else
-                    {
-                        ola += oi[i];
-                    }
-                }
-                this.comandos.caminho_imagem = ola;
+
+                this.comandos.caminho_imagem = Txt_imagem.Text;
                 this.comandos.CadastrarCarro();
                 MessageBox.Show("Registro salvo com sucesso.");
                 Clear();
@@ -191,6 +186,19 @@ namespace SistemaCliente
         private void Btn_Inserir_imagem_Click(object sender, EventArgs e)
         {
             CarregarFoto();
+            string caminho_formatado = "", caminho = Txt_imagem.Text;
+            for (int i = 0; i <= caminho.Length - 1; i++)
+            {
+                if (caminho[i] == '\\')
+                {
+                    caminho_formatado += "?";
+                }
+                else
+                {
+                    caminho_formatado += caminho[i];
+                }
+            }
+            Txt_imagem.Text = caminho_formatado;
         }
         private void CarregarFoto()
         {
@@ -218,7 +226,7 @@ namespace SistemaCliente
                     MessageBox.Show(e.Message.ToString());
                 }
             }
-            
+
         }
     }
 }

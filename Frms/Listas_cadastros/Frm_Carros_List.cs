@@ -73,7 +73,7 @@ namespace SistemaCliente
             valor_de_compra = "";
             placa = "";
             foto = "";
-            Frm_Cadastro_Carros form = new Frm_Cadastro_Carros(btSalvar = false, id_carro, tamanho, categoria, cilindradas, gps, tela_de_lcd, fabricante,modelo,ano,painel_digital,cambio_automatico,tipo_de_combustivel,data_de_compra,valor_de_compra,placa,foto);
+            Frm_Cadastro_Carros form = new Frm_Cadastro_Carros(btSalvar = false, id_carro, tamanho, categoria, cilindradas, gps, tela_de_lcd, fabricante, modelo, ano, painel_digital, cambio_automatico, tipo_de_combustivel, data_de_compra, valor_de_compra, placa, foto);
             form.Show();
             listarCarros();
         }
@@ -125,7 +125,7 @@ namespace SistemaCliente
             data_de_compra = linha.Cells[12].Value.ToString();
             valor_de_compra = linha.Cells[13].Value.ToString();
             placa = linha.Cells[14].Value.ToString();
-            foto = linha.Cells[15].Value.ToString();
+            foto = linha.Cells[16].Value.ToString();
 
             Lbl_Modelo.Text = modelo;
             Lbl_Valor_Compra.Text = valor_de_compra;
