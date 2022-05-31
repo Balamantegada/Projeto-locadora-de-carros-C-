@@ -89,156 +89,135 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataBase\ConexaoDB.cs" />
-    <Compile Include="DTO\Carros.cs" />
-    <Compile Include="DTO\Cliente.cs" />
-    <Compile Include="DTO\Funcionario.cs" />
-    <Compile Include="DTO\Locacoes.cs" />
-    <Compile Include="Frms\Frm_Funcionario.cs">
+    <Compile Include="Banco de dados.cs" />
+    <Compile Include="Carros\Comandos carros.cs" />
+    <Compile Include="Clientes\Comandos de clientes.cs" />
+    <Compile Include="Funcionario\COmandos dos funcionários.cs" />
+    <Compile Include="Locações\Comandos de clientes.cs" />
+    <Compile Include="Funcionario\Opções do funcionário.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frms\Frm_Funcionario.Designer.cs">
-      <DependentUpon>Frm_Funcionario.cs</DependentUpon>
+    <Compile Include="Funcionario\Opções do funcionário.Designer.cs">
+      <DependentUpon>Opções do funcionário.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frms\Listas_cadastros\Frm_Cadastros\Frm_Cadastro_Carros.cs">
+    <Compile Include="Carros\Cadastro dos carros.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frms\Listas_cadastros\Frm_Cadastros\Frm_Cadastro_Carros.Designer.cs">
-      <DependentUpon>Frm_Cadastro_Carros.cs</DependentUpon>
+    <Compile Include="Carros\Cadastro dos carros.Designer.cs">
+      <DependentUpon>Cadastro dos carros.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frms\Listas_cadastros\Frm_Cadastros\Frm_Cadastro_Clientes - Cópia .cs">
+    <Compile Include="Clientes\Cadastro de clientes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frms\Listas_cadastros\Frm_Cadastros\Frm_Cadastro_Clientes - Cópia .Designer.cs">
-      <DependentUpon>Frm_Cadastro_Clientes - Cópia .cs</DependentUpon>
+    <Compile Include="Clientes\Cadastro de clientes.Designer.cs">
+      <DependentUpon>Cadastro de clientes.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frms\Listas_cadastros\Frm_Cadastros\Frm_Cadastro_Locacoes.cs">
+    <Compile Include="Locações\Cadastro de locações.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frms\Listas_cadastros\Frm_Cadastros\Frm_Cadastro_Locacoes.Designer.cs">
-      <DependentUpon>Frm_Cadastro_Locacoes.cs</DependentUpon>
+    <Compile Include="Locações\Cadastro de locações.Designer.cs">
+      <DependentUpon>Cadastro de locações.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frms\Listas_cadastros\Frm_Cadastros\Frm_Cadastro_Funcionario.cs">
+    <Compile Include="Funcionario\Cadastro de funcionários.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frms\Listas_cadastros\Frm_Cadastros\Frm_Cadastro_Funcionario.Designer.cs">
-      <DependentUpon>Frm_Cadastro_Funcionario.cs</DependentUpon>
+    <Compile Include="Funcionario\Cadastro de funcionários.Designer.cs">
+      <DependentUpon>Cadastro de funcionários.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frms\Listas_cadastros\Frm_Carros_List.cs">
+    <Compile Include="Carros\Lista de carros.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frms\Listas_cadastros\Frm_Carros_List.Designer.cs">
-      <DependentUpon>Frm_Carros_List.cs</DependentUpon>
+    <Compile Include="Carros\Lista de carros.Designer.cs">
+      <DependentUpon>Lista de carros.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frms\Listas_cadastros\Frm_Locacoes_List.cs">
+    <Compile Include="Locações\Lsita de locações.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frms\Listas_cadastros\Frm_Locacoes_List.Designer.cs">
-      <DependentUpon>Frm_Locacoes_List.cs</DependentUpon>
+    <Compile Include="Locações\Lsita de locações.Designer.cs">
+      <DependentUpon>Lsita de locações.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frms\Listas_cadastros\Frm_Cliente_List.cs">
+    <Compile Include="Clientes\Lista de clientes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frms\Listas_cadastros\Frm_Cliente_List.Designer.cs">
-      <DependentUpon>Frm_Cliente_List.cs</DependentUpon>
+    <Compile Include="Clientes\Lista de clientes.Designer.cs">
+      <DependentUpon>Lista de clientes.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frms\Listas_cadastros\Frm_Funcionario_List .cs">
+    <Compile Include="Funcionario\Lista de funcionários.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frms\Listas_cadastros\Frm_Funcionario_List .Designer.cs">
-      <DependentUpon>Frm_Funcionario_List .cs</DependentUpon>
+    <Compile Include="Funcionario\Lista de funcionários.Designer.cs">
+      <DependentUpon>Lista de funcionários.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frms\template\Clientes.cs" />
-    <Compile Include="DTO\LoginAcesso.cs" />
-    <Compile Include="Frms\Frm_Admin.cs">
+    <Compile Include="Admins\Comandos de admin.cs" />
+    <Compile Include="Admins\Opções do admin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frms\Frm_Admin.Designer.cs">
-      <DependentUpon>Frm_Admin.cs</DependentUpon>
+    <Compile Include="Admins\Opções do admin.Designer.cs">
+      <DependentUpon>Opções do admin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frms\template\Frm_Cadastro.cs" />
-    <Compile Include="Frms\template\Frm_Cadastro.Designer.cs">
-      <DependentUpon>Frm_Cadastro.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Frms\Frm_Login_funcio.cs">
+    <Compile Include="Funcionario\Login de funcionário.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frms\Frm_Login_funcio.Designer.cs">
-      <DependentUpon>Frm_Login_funcio.cs</DependentUpon>
+    <Compile Include="Funcionario\Login de funcionário.Designer.cs">
+      <DependentUpon>Login de funcionário.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frms\Frm_Login_admin.cs">
+    <Compile Include="Admins\Login do admin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frms\Frm_Login_admin.Designer.cs">
-      <DependentUpon>Frm_Login_admin.cs</DependentUpon>
+    <Compile Include="Admins\Login do admin.Designer.cs">
+      <DependentUpon>Login do admin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frms\template\Frm_User_List.cs" />
-    <Compile Include="Frms\template\Frm_User_List.Designer.cs">
-      <DependentUpon>Frm_User_List.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Frms\Principal.cs">
+    <Compile Include="Glads.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frms\Principal.Designer.cs">
-      <DependentUpon>Principal.cs</DependentUpon>
+    <Compile Include="Glads.Designer.cs">
+      <DependentUpon>Glads.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Frms\Frm_Funcionario.resx">
-      <DependentUpon>Frm_Funcionario.cs</DependentUpon>
+    <EmbeddedResource Include="Funcionario\Opções do funcionário.resx">
+      <DependentUpon>Opções do funcionário.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frms\Frm_Admin.resx">
-      <DependentUpon>Frm_Admin.cs</DependentUpon>
+    <EmbeddedResource Include="Admins\Opções do admin.resx">
+      <DependentUpon>Opções do admin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frms\Listas_cadastros\Frm_Cadastros\Frm_Cadastro_Carros.resx">
-      <DependentUpon>Frm_Cadastro_Carros.cs</DependentUpon>
+    <EmbeddedResource Include="Carros\Cadastro dos carros.resx">
+      <DependentUpon>Cadastro dos carros.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frms\Listas_cadastros\Frm_Cadastros\Frm_Cadastro_Clientes - Cópia .resx">
-      <DependentUpon>Frm_Cadastro_Clientes - Cópia .cs</DependentUpon>
+    <EmbeddedResource Include="Clientes\Cadastro de clientes.resx">
+      <DependentUpon>Cadastro de clientes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frms\Listas_cadastros\Frm_Cadastros\Frm_Cadastro_Locacoes.resx">
-      <DependentUpon>Frm_Cadastro_Locacoes.cs</DependentUpon>
+    <EmbeddedResource Include="Locações\Cadastro de locações.resx">
+      <DependentUpon>Cadastro de locações.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frms\Listas_cadastros\Frm_Cadastros\Frm_Cadastro_Funcionario.resx">
-      <DependentUpon>Frm_Cadastro_Funcionario.cs</DependentUpon>
+    <EmbeddedResource Include="Funcionario\Cadastro de funcionários.resx">
+      <DependentUpon>Cadastro de funcionários.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frms\Listas_cadastros\Frm_Carros_List.resx">
-      <DependentUpon>Frm_Carros_List.cs</DependentUpon>
+    <EmbeddedResource Include="Carros\Lista de carros.resx">
+      <DependentUpon>Lista de carros.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frms\Listas_cadastros\Frm_Locacoes_List.resx">
-      <DependentUpon>Frm_Locacoes_List.cs</DependentUpon>
+    <EmbeddedResource Include="Locações\Lsita de locações.resx">
+      <DependentUpon>Lsita de locações.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frms\Listas_cadastros\Frm_Cliente_List.resx">
-      <DependentUpon>Frm_Cliente_List.cs</DependentUpon>
+    <EmbeddedResource Include="Clientes\Lista de clientes.resx">
+      <DependentUpon>Lista de clientes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frms\Listas_cadastros\Frm_Funcionario_List .resx">
-      <DependentUpon>Frm_Funcionario_List .cs</DependentUpon>
+    <EmbeddedResource Include="Funcionario\Lista de funcionários.resx">
+      <DependentUpon>Lista de funcionários.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frms\template\Frm_Cadastro.resx">
-      <DependentUpon>Frm_Cadastro.cs</DependentUpon>
+    <EmbeddedResource Include="Funcionario\Login de funcionário.resx">
+      <DependentUpon>Login de funcionário.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frms\Frm_Login_funcio.resx">
-      <DependentUpon>Frm_Login_funcio.cs</DependentUpon>
+    <EmbeddedResource Include="Admins\Login do admin.resx">
+      <DependentUpon>Login do admin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frms\Frm_Login_admin.resx">
-      <DependentUpon>Frm_Login_admin.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Frms\template\Frm_User_List.resx">
-      <DependentUpon>Frm_User_List.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Frms\Principal.resx">
-      <DependentUpon>Principal.cs</DependentUpon>
+    <EmbeddedResource Include="Glads.resx">
+      <DependentUpon>Glads.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -257,19 +236,11 @@
     <Folder Include="Imgs\ImgsCarros\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Imgs\Background_img\background_principal.jpg" />
-    <Content Include="Imgs\icons\admin_icon.ico" />
-    <Content Include="Imgs\icons\admin_icon.png" />
-    <Content Include="Imgs\icons\carro_icon.png" />
-    <Content Include="Imgs\icons\clientes_icon.png" />
+    <None Include="Imgs\Background_img\GLADS principal.jpg" />
+    <None Include="Imgs\Background_img\Login adm.jpg" />
     <Content Include="Imgs\icons\formulario_icon.ico" />
     <Content Include="Imgs\icons\formulario_icon.png" />
-    <Content Include="Imgs\icons\funcionario_icon.png" />
-    <Content Include="Imgs\icons\funcionario_perncil_icon.ico" />
-    <Content Include="Imgs\icons\funcionario_perncil_icon.png" />
     <Content Include="Imgs\icons\locação_icon.png" />
-    <Content Include="Imgs\icons\principal_icon.ico" />
-    <Content Include="Imgs\icons\principal_icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

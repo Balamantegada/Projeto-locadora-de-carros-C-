@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 26-Maio-2022 às 16:10
+-- Tempo de geração: 31-Maio-2022 às 16:26
 -- Versão do servidor: 10.4.22-MariaDB
 -- versão do PHP: 8.1.2
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Banco de dados: `projeto_locadora_de_carros`
+-- Banco de dados: `locadora-de-carros`
 --
 
 -- --------------------------------------------------------
@@ -39,8 +39,7 @@ CREATE TABLE `adms` (
 --
 
 INSERT INTO `adms` (`id_adm`, `usuario_adm`, `senha_adm`, `data_adm`) VALUES
-(1, 'adm', 0, '2022-04-28 12:36:33'),
-(2, '[value-2]', 0, '0000-00-00 00:00:00');
+(1, 'Thaina', 'Thaina', '2022-05-31 11:28:33');
 
 -- --------------------------------------------------------
 
@@ -68,23 +67,6 @@ CREATE TABLE `carros` (
   `foto_url` varchar(500) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
---
--- Extraindo dados da tabela `carros`
---
-
-INSERT INTO `carros` (`id_carro`, `modelo`, `tamanho`, `categoria`, `cilindradas`, `gps`, `tela_de_lcd`, `fabricante`, `ano`, `painel_digital`, `cambio_automatico`, `tipo_de_combustivel`, `data_de_compra`, `valor_da_compra`, `placa`, `ja_locado`, `foto_url`) VALUES
-(4, '[value-2]', '[value-3]', '[value-4]', '[value-5]', '[value-6]', '[value-7]', '[value-8]', '[value-9]', '[value-10]', '[value-11]', '[value-12]', '[value-13]', '[value-14]', '[value-15]', '1', ''),
-(7, '\"+modelo+\"', '\" + tamanho + \"', '\" + categoria + \"', '\" + cilindradas + \"', '\" + gps + \"', '\" + tela_de_lcd + \"', '\" + fabricante + \"', '\" + ano + \"', '\" + painel_digital + \"', '\" + cambio_automatico + \"', '\" + tipo_de_combustivel + \"', '\" + data_de_co', '\" + valor_de_compra + \"', '\" + placa + \"', '', ''),
-(8, '\" + modelo + \"', '\" + tamanho + \"', '\" + categoria + \"', '\" + cilindradas + \"', '\" + gps + \"', '\" + tela_de_lcd + \"', '\" + fabricante + \"', '\" + ano + \"', '\" + painel_digital + \"', '\" + cambio_automatico + \"', '\" + tipo_de_combustivel + \"', '\" + data_de_co', '\" + valor_de_compra + \"', '\" + placa + \"', '', ''),
-(9, '1231', '', '', '', '', '', '', '', '', '', '', '  /  /', '', '', '', 'C:UsersEscola SDesktopimages.jpg'),
-(10, 'sfgsdfgfd', '', '', '', '', '', '', '', '', '', '', '  /  /', '', '', '', 'C:UsersEscola SDesktopAngolan.jpg'),
-(11, 'dasdasd', '', '', '', '', '', '', '', '', '', '', '  /  /', '', '', '', ''),
-(12, 'xcvxcv', '', '', '', '', '', '', '', '', '', '', '  /  /', '', '', '', ''),
-(13, 'a', '', '', '', '', '', '', '', '', '', '', '  /  /', '', '', '', ''),
-(14, 'dgdg', '', '', '', '', '', '', '', '', '', '', '  /  /', '', '', '', ''),
-(15, 'Angolano', '', '', '', '', '', '', '', '', '', '', '  /  /', '', '', '', 'C:?Users?Escola S?Desktop?Angolan.jpg'),
-(16, 'imagrm', '', '', '', '', '', '', '', '', '', '', '  /  /', '', '', '', 'C:?Users?Escola S?Desktop?Angolan2.jpg');
-
 -- --------------------------------------------------------
 
 --
@@ -104,16 +86,6 @@ CREATE TABLE `clientes` (
   `ativo_cliente` int(1) NOT NULL COMMENT '0 = desativado\r\n1 = ativado'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
---
--- Extraindo dados da tabela `clientes`
---
-
-INSERT INTO `clientes` (`cpf_cliente`, `nome_cliente`, `sobrenome_cliente`, `endereço_completo`, `telefone_cliente`, `email_cliente`, `cnh_cliente`, `cep_residencia_cliente`, `data_cliente`, `ativo_cliente`) VALUES
-(14, 'Marcos', 'Gabriel', 'Rua antonio', '12343242341', 'marcosfurry@furry', '123', '21132', '2022-05-10 14:47:20', 0),
-(99, 'Furry', '', '', '123123123', '', '123123123', '', '2022-05-10 14:47:13', 0),
-(1213, 'Arthu', '', '123123', '1123123123', '12313213', '112313', '21312312', '2022-05-10 14:46:02', 0),
-(6969, 'Shryu', '\"+sobrenome_cliente+\"', 'rua asdasda', '47999312312', 'shryu@shryu', '12312', '12312', '2022-05-05 14:20:31', 1);
-
 -- --------------------------------------------------------
 
 --
@@ -132,7 +104,7 @@ CREATE TABLE `funcionarios` (
 --
 
 INSERT INTO `funcionarios` (`id_funcio`, `usuario_funcio`, `senha_funcio`, `data_funcio`) VALUES
-(2, 'funcionario', 'funcionario', '2022-05-05 13:30:20');
+(1, 'Daniel', 'Daniel', '2022-05-31 11:30:20');
 
 -- --------------------------------------------------------
 
@@ -150,18 +122,6 @@ CREATE TABLE `locacoes` (
   `finalizado` int(1) NOT NULL COMMENT '0 = em aberto\r\n1 = finalizado'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
---
--- Extraindo dados da tabela `locacoes`
---
-
-INSERT INTO `locacoes` (`cpf_do_locatorio`, `id_carro`, `km_inicial`, `km_entrega_carro`, `data_locacao`, `data_devolucao`, `finalizado`) VALUES
-(3, 5, '0000', '0000', '00/00/0000', '00/00/0000', 0),
-(12, 5, '1231', '1231', '21/31/2312', '13/12/3123', 0),
-(123, 5, '0000', '0000', '00/00/0000', '00/00/0000', 0),
-(554, 5, '1111', '1111', '11/11/1111', '11/11/1111', 0),
-(12312, 6, '0000', '0000', '00/00/0000', '00/00/0000', 0);
-
---
 -- Índices para tabelas despejadas
 --
 

@@ -63,9 +63,9 @@ namespace SistemaCliente.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap admin_icon {
+        internal static System.Drawing.Bitmap GLADS_principal {
             get {
-                object obj = ResourceManager.GetObject("admin_icon", resourceCulture);
+                object obj = ResourceManager.GetObject("GLADS principal", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,99 +73,9 @@ namespace SistemaCliente.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap background_principal {
+        internal static System.Drawing.Bitmap Login_adm {
             get {
-                object obj = ResourceManager.GetObject("background_principal", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap carro_icon {
-            get {
-                object obj = ResourceManager.GetObject("carro_icon", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap carro_icon1 {
-            get {
-                object obj = ResourceManager.GetObject("carro_icon1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap clientes_icon {
-            get {
-                object obj = ResourceManager.GetObject("clientes_icon", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap clientes_icon1 {
-            get {
-                object obj = ResourceManager.GetObject("clientes_icon1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap funcionario_icon {
-            get {
-                object obj = ResourceManager.GetObject("funcionario_icon", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap funcionario_perncil_icon {
-            get {
-                object obj = ResourceManager.GetObject("funcionario_perncil_icon", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap funcionario_perncil_icon1 {
-            get {
-                object obj = ResourceManager.GetObject("funcionario_perncil_icon1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap locação_icon {
-            get {
-                object obj = ResourceManager.GetObject("locação_icon", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap principal_icon {
-            get {
-                object obj = ResourceManager.GetObject("principal_icon", resourceCulture);
+                object obj = ResourceManager.GetObject("Login adm", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

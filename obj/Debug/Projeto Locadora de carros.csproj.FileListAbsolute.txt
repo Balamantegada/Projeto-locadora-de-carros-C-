@@ -25,7 +25,6 @@ C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\bi
 C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\obj\Debug\Projeto Locadora de carros.csproj.AssemblyReference.cache
 C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\obj\Debug\Projeto Locadora de carros.csproj.SuggestedBindingRedirects.cache
-C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\obj\Debug\SistemaCliente.Frm_Principal.resources
 C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\obj\Debug\SistemaCliente.Properties.Resources.resources
 C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\obj\Debug\Projeto Locadora de carros.csproj.GenerateResource.cache
 C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\obj\Debug\Projeto Locadora de carros.csproj.CoreCompileInputs.cache
@@ -37,8 +36,6 @@ C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\ob
 C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\obj\Debug\SistemaCliente.Frm_Login_admin.resources
 C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\obj\Debug\SistemaCliente.Frm_Cadastro_Funcionario.resources
 C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\obj\Debug\SistemaCliente.Frm_Funcionario_List.resources
-C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\obj\Debug\SistemaCliente.Frms.template.Frm_Cadastro.resources
-C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\obj\Debug\SistemaCliente.Frms.template.Frm_User_List.resources
 C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\obj\Debug\SistemaCliente.Frms.Frm_Funcionario.resources
 C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\obj\Debug\SistemaCliente.Frm_Cliente_List.resources
 C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\obj\Debug\SistemaCliente.Frm_Cadastro_Clientes.resources
@@ -94,3 +91,4 @@ C:\Users\rodri\OneDrive\Área de Trabalho\Programação\2022\Projeto locadora de
 C:\Users\rodri\OneDrive\Área de Trabalho\Programação\2022\Projeto locadora de carros\Projeto-locadora-de-carros-C-\obj\Debug\Projeto Locadora de carros.csproj.CopyComplete
 C:\Users\rodri\OneDrive\Área de Trabalho\Programação\2022\Projeto locadora de carros\Projeto-locadora-de-carros-C-\obj\Debug\SistemaCliente.exe
 C:\Users\rodri\OneDrive\Área de Trabalho\Programação\2022\Projeto locadora de carros\Projeto-locadora-de-carros-C-\obj\Debug\SistemaCliente.pdb
+C:\Users\Escola S\source\repos\Projeto locadora de carros - Arthur L. Kroenke\obj\Debug\SistemaCliente.Glads.resources
