@@ -43,6 +43,9 @@ namespace SistemaCliente
             String Filtro = Input_BuscarUsuario.Text;
             MySqlDataReader temp = this.comandos.ListarClientesFiltro(Filtro);
             DataTable dt = new DataTable();
+            dataGridUsuario.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dataGridUsuario.RowTemplate.Height = 120;
+            dataGridUsuario.AllowUserToAddRows = false;
             dt.Load(temp);
             dataGridUsuario.DataSource = dt;
         }
@@ -69,6 +72,9 @@ namespace SistemaCliente
             this.comandos = new Cliente();
             MySqlDataReader temp = this.comandos.ListarClientes();
             DataTable dt = new DataTable();
+            dataGridUsuario.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dataGridUsuario.RowTemplate.Height = 120;
+            dataGridUsuario.AllowUserToAddRows = false;
             dt.Load(temp);
             dataGridUsuario.DataSource = dt;
         }

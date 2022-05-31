@@ -57,7 +57,7 @@
             this.dataGridUsuario.GridColor = System.Drawing.SystemColors.Control;
             this.dataGridUsuario.Location = new System.Drawing.Point(50, 100);
             this.dataGridUsuario.Name = "dataGridUsuario";
-            this.dataGridUsuario.Size = new System.Drawing.Size(800, 400);
+            this.dataGridUsuario.Size = new System.Drawing.Size(1311, 400);
             this.dataGridUsuario.TabIndex = 0;
             this.dataGridUsuario.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridClientes_CellClick);
             // 
@@ -102,7 +102,7 @@
             this.Lbl_NumeroCell.BackColor = System.Drawing.Color.Transparent;
             this.Lbl_NumeroCell.Font = new System.Drawing.Font("Franklin Gothic Book", 16.75F, System.Drawing.FontStyle.Bold);
             this.Lbl_NumeroCell.ForeColor = System.Drawing.Color.Snow;
-            this.Lbl_NumeroCell.Location = new System.Drawing.Point(626, 39);
+            this.Lbl_NumeroCell.Location = new System.Drawing.Point(1053, 41);
             this.Lbl_NumeroCell.Name = "Lbl_NumeroCell";
             this.Lbl_NumeroCell.Size = new System.Drawing.Size(48, 29);
             this.Lbl_NumeroCell.TabIndex = 4;
@@ -111,7 +111,7 @@
             // Btn_Alterar
             // 
             this.Btn_Alterar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(162)))), ((int)(((byte)(171)))));
-            this.Btn_Alterar.Location = new System.Drawing.Point(694, 517);
+            this.Btn_Alterar.Location = new System.Drawing.Point(1205, 526);
             this.Btn_Alterar.Name = "Btn_Alterar";
             this.Btn_Alterar.Size = new System.Drawing.Size(75, 23);
             this.Btn_Alterar.TabIndex = 5;
@@ -134,7 +134,7 @@
             // Novo_Cliente
             // 
             this.Novo_Cliente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(162)))), ((int)(((byte)(171)))));
-            this.Novo_Cliente.Location = new System.Drawing.Point(613, 517);
+            this.Novo_Cliente.Location = new System.Drawing.Point(1124, 526);
             this.Novo_Cliente.Name = "Novo_Cliente";
             this.Novo_Cliente.Size = new System.Drawing.Size(75, 23);
             this.Novo_Cliente.TabIndex = 4;
@@ -145,7 +145,7 @@
             // Bt_Excluir
             // 
             this.Bt_Excluir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(162)))), ((int)(((byte)(171)))));
-            this.Bt_Excluir.Location = new System.Drawing.Point(775, 517);
+            this.Bt_Excluir.Location = new System.Drawing.Point(1286, 526);
             this.Bt_Excluir.Name = "Bt_Excluir";
             this.Bt_Excluir.Size = new System.Drawing.Size(75, 23);
             this.Bt_Excluir.TabIndex = 6;
@@ -158,7 +158,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.ClientSize = new System.Drawing.Size(884, 561);
+            this.ClientSize = new System.Drawing.Size(1373, 561);
             this.Controls.Add(this.Bt_Excluir);
             this.Controls.Add(this.Novo_Cliente);
             this.Controls.Add(this.Bt_BuscarCliente);
